@@ -1,0 +1,63 @@
+
+:root {
+  --main-bg-color: rgb(190, 190, 235);
+}
+body {
+  background-color: var(--main-bg-color);
+}
+
+
+
+
+@media (max-width: 800px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
+}
+
+/* a:link or just a */
+a:link {
+  color: pink;
+}
+/* when you have already clicked and visited the link / page */
+a:visited {
+  color: rgb(18, 244, 252);
+}
+/* any link over which the user's pointer is hovering */
+a:hover {
+  text-decoration: underline;
+}
+ul>li>a:active {
+  color: rgb(81, 231, 35);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.alx-logo {
+    width: 25%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
