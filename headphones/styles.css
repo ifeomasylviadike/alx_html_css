@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'spin_cycle_3d_otregular';
+    src: url('spincycle_3d_ot-webfont.eot');
+    src: url('spincycle_3d_ot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('spincycle_3d_ot-webfont.woff2') format('woff2'),
+         url('spincycle_3d_ot-webfont.woff') format('woff'),
+         url('spincycle_3d_ot-webfont.ttf') format('truetype'),
+         url('spincycle_3d_ot-webfont.svg#spin_cycle_3d_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('fonts/SourceSansPro-Regular.otf') format('otf'),
+       url('fonts/SourceSansPro-Bold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+    display: flex;
+}
+
+body {
+    background-color: black;
+    font-family: 'Source Sans Pro', Spin Cycle 3d ot;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+}
+
+article {
+    display: flex;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex: 2;
+    font-family: 'Spin Cycle 3d';
+}
+
+div ul {
+    display: flex;
+}
